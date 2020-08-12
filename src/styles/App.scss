@@ -15,8 +15,8 @@ body {
 * {
   color: $white;
   font-family: 'Heebo', sans-serif;
-  letter-spacing: 0.02em;
   font-weight: 200;
+  letter-spacing: 0.02em;
 }
 
 $pt: 0.75px;
@@ -29,7 +29,7 @@ $pt: 0.75px;
 @import 'projects';
 @import 'awards';
 
-img {
-  width: 100%;
-  height: auto;
+amp-img {
+  background-color: transparent;
+  pointer-events: none;
 }
