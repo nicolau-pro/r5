@@ -1,0 +1,67 @@
+$px: 1px;
+$percent: 1 / 100;
+
+$break-xsmall: 375px;
+$break-small: 544px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-xlarge: 1200px;
+
+$general-font-size: 16;
+$general-letter-spacing: normal;
+$general-vertical-margin: 12 * $px;
+$general-list-padding: 1.1em;
+$general-column-gap: 1em;
+$general-carousel-transition-duration: 1s * 50 * $percent;
+$general-accordion-transition-duration: 1s * 10 * $percent;
+$general-header-transition-duration: 1s * 20 * $percent;
+$footer-symbol: 30 * $px;
+
+$spacing-small: 1em;
+$spacing-medium: 2em;
+$spacing-large: 3em;
+
+$black: #000000;
+
+$white: #ffffff;
+
+$color-primary: #3bd6ae;
+$color-primary-hover: darken($color-primary, 9.33%);
+$color-primary-light: lighten($color-primary, 42.67%);
+$color-primary-dark: darken($color-primary, 42%);
+
+$color-secondary: #7835b8;
+$color-secondary-hover: darken($color-secondary, 9.33%);
+$color-secondary-light: lighten($color-secondary, 42.67%);
+$color-secondary-focus: lighten($color-secondary, 14.33%);
+
+$color-tertiary: #11e055;
+$color-tertiary-hover: darken($color-tertiary, 9.33%);
+
+$color-neutral: #989898;
+$color-light: lighten($color-neutral, 100%);
+$color-neutral-lightest: lighten($color-neutral, 35.33%);
+$color-neutral-lighter: lighten($color-neutral, 28%);
+$color-neutral-light: lighten($color-neutral, 20%);
+$color-neutral-dark: darken($color-neutral, 3%);
+$color-neutral-darker: darken($color-neutral, 13.33%);
+$color-neutral-darkest: darken($color-neutral, 28.33%);
+$color-dark: darken($color-neutral, 100%);
+
+$color-error: #d50100;
+$color-alert: lighten($color-error, 40.33%);
+$color-attention: #ffe1b3;
+$color-info: #d9f7ff;
+$color-success: #ccfccc;
+$color-toast: $color-neutral-lighter;
+$color-message: $color-neutral-darker;
+
+$color-transparent: transparent;
+$color-header-shadow: rgba(0, 0, 0, 1);
+$color-shadow: rgba(0, 0, 0, 10 * $percent);
+
+$color-focus: $color-dark;
+$color-focus-background: $color-tertiary;
+
+$color-green-fade-start: rgb(0, 211, 186);
+$color-green-fade-end: rgb(0, 255, 153);

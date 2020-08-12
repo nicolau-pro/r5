@@ -1,20 +1,30 @@
-* {
-  font-family: "PT Sans", sans-serif;
+@import 'variables';
+@import 'mixins';
+
+body {
+  background-attachment: fixed;
+  background-color: $black;
+  background-image: url('https://www.r5.ro/2020/galaxy.jpg');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
 }
 
-@import "colors";
-@import "mixins";
+* {
+  color: $white;
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 200;
+}
 
 $pt: 0.75px;
-$fpt: $pt * 0.8;
-$breakSmall: 576px;
-$breakMedium: 768px;
-$breakLarge: 992px;
-$breakXLarge: 1200px;
 
-@import "header";
-@import "footer";
+@import 'layout';
+@import 'header';
+@import 'footer';
 
-main {
-  @import "display";
-}
+@import 'headings';
+@import 'projects';
+@import 'awards';

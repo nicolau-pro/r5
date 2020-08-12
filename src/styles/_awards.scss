@@ -1,0 +1,213 @@
+section {
+  &.awards {
+    .awards-content {
+      background: radial-gradient(ellipse at center, rgba(243, 194, 62, 0.25) 0%, rgba(243, 194, 62, 0) 60%);
+      background-color: rgba(0, 0, 0, 0.6);
+      background-position: top center;
+      background-size: 100% 200%;
+
+      &.silver {
+        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 60%);
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: top center;
+        background-size: 100% 200%;
+      }
+
+      &.bronze {
+        background: radial-gradient(ellipse at center, rgba(216, 107, 74, 0.3) 0%, rgba(216, 107, 74, 0) 60%);
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: top center;
+        background-size: 100% 200%;
+      }
+
+      &.finalist {
+        background: radial-gradient(ellipse at center, rgba(65, 150, 246, 0.3) 0%, rgba(65, 150, 246, 0) 60%);
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: top center;
+        background-size: 100% 200%;
+      }
+
+      &.grand-prix {
+        background: radial-gradient(ellipse at center, rgba(243, 194, 62, 0) 0%, rgba(243, 194, 62, 0) 60%);
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: top center;
+        background-size: 100% 200%;
+      }
+    }
+
+    h3,
+    h4,
+    h5 {
+      font-weight: 100;
+      margin: 0;
+      margin-bottom: 0.5em;
+      padding: 0;
+    }
+
+    h3,
+    p {
+      text-shadow: 0 0 8px $white;
+    }
+
+    h3 {
+      margin-top: 1em;
+    }
+
+    .year {
+      display: block;
+      font-family: inherit;
+      font-size: 0.8em;
+      font-weight: inherit;
+      margin-bottom: 0.5em;
+      opacity: 0.6;
+      text-shadow: none;
+    }
+
+    .result {
+      letter-spacing: 0.5em;
+      text-transform: uppercase;
+    }
+
+    .awards-logo,
+    .awards-video {
+      margin: -1em;
+      padding: 1em;
+      position: relative;
+
+      a {
+        border-radius: 999px;
+        display: block;
+        overflow: hidden;
+        transition: padding ease-in-out 0.05s, margin ease-in-out 0.05s;
+      }
+    }
+
+    .awards-logo {
+      a {
+        background: radial-gradient(
+          ellipse at center,
+          rgba(255, 255, 255, 0.1) 0%,
+          rgba(255, 255, 255, 0.1) 55%,
+          transparent 55.5%,
+          transparent 100%
+        );
+
+        @media (max-width: $break-medium) {
+          background: radial-gradient(
+            ellipse at center,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0.1) 65%,
+            transparent 65.5%,
+            transparent 100%
+          );
+        }
+
+        @media (max-width: $break-small) {
+          background: radial-gradient(
+            ellipse at center,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0.1) 62%,
+            transparent 62.5%,
+            transparent 100%
+          );
+        }
+
+        padding: 2em;
+
+        &:hover {
+          padding: 1.5em;
+        }
+      }
+    }
+
+    .awards-video {
+      a {
+        margin: 2em;
+
+        &::after {
+          background-image: url('https://www.r5.ro/2020/SpritesTransparent.png');
+          background-position: 100% 14.2857%;
+          background-repeat: no-repeat;
+          background-size: 800% 800%;
+          content: '';
+          height: 100%;
+          left: 30%;
+          opacity: 0.6;
+          pointer-events: none;
+          position: absolute;
+          top: 30%;
+          transition: opacity ease-out 0.05s, background-size ease-out 0.05s;
+          width: 40%;
+          height: 40%;
+        }
+
+        &:hover {
+          margin: 1.5em;
+
+          &::after {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+
+    .col {
+      text-align: center;
+      @media (min-width: $break-medium + 1px) and (max-width: $break-large) {
+        &.triple {
+          flex: 2;
+        }
+      }
+    }
+
+    @media (max-width: $break-medium) {
+      .row {
+        align-content: center;
+        align-items: center;
+      }
+
+      .col {
+        display: inline-block;
+        flex: unset;
+
+        &.awards-text {
+          order: 1;
+          width: 100%;
+        }
+
+        &.awards-logo,
+        &.awards-video {
+          margin-bottom: 0.5em;
+          margin-top: -2em;
+          max-width: 50vw;
+          order: 2;
+          width: 50%;
+        }
+      }
+
+      .awards-logo {
+        a {
+          padding: 1em;
+
+          &:hover {
+            padding: unset;
+          }
+        }
+      }
+
+      .awards-text {
+        padding: 0 1em;
+      }
+
+      .awards-video {
+        a {
+          margin: 1em;
+
+          &:hover {
+            margin: unset;
+          }
+        }
+      }
+    }
+  }
+}

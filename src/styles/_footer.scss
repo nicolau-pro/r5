@@ -1,13 +1,13 @@
 footer {
-  font-size: 16 * $pt;
-  background-color: $darkGrey;
-  padding: 12 * $pt;
-  text-align: center;
-  position: fixed;
+  background: linear-gradient(to top, rgba(35, 53, 73, 0.9) 0%, rgba(35, 53, 73, 0.7) 100%);
   bottom: 0;
+  font-size: 16 * $pt;
+  padding: 12 * $pt;
+  position: fixed;
+  text-align: center;
   width: 100%;
 
   a {
-    color: $azure !important;
+    color: $white;
   }
 }

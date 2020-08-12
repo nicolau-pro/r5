@@ -1,0 +1,214 @@
+{
+  "list": [
+    {
+      "event": "Effective Mobile Marketing Awards",
+      "year": 2012,
+      "award": "Best Mobile Augmented Reality Campaign / Solution",
+      "client": "Stylist Magazine",
+      "campaign": "Olympic Edition",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2012-EMMA-Gold/logo.png",
+        "link": "https://mobilemarketingmagazine.com/awards/",
+        "sprite": { "x": 2, "y": 0 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2012-EMMA-Gold/photo.jpg",
+        "sprite": { "x": 0, "y": 0 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=HXIrDGeCWNo"
+      }
+    },
+    {
+      "event": "The Drum Marketing Awards",
+      "year": 2013,
+      "award": "Best Augmented Reality Experience",
+      "client": "Monarch Airlines",
+      "campaign": "Monarch Mountain",
+      "class": "grand-prix",
+      "result": "Grand Prix Winner",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2013-The_Drum_DMA-Grand_Prix/logo.png",
+        "link": "https://www.thedrummarketingawards.com/",
+        "sprite": { "x": 0, "y": 1 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2013-The_Drum_DMA-Grand_Prix/photo.jpg",
+        "sprite": { "x": 1, "y": 0 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=2ubjaUUDVlA"
+      }
+    },
+    {
+      "event": "Beverage Innovation Awards @ Drinktec",
+      "year": 2013,
+      "award": "Best Technology Innovation",
+      "client": "JuiceBurst",
+      "campaign": "Augmented Reality bottles",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2013-Foodbev-Gold/logo.png",
+        "link": "https://www.drinktec.com/supporting-program/competitions-awards/world-beverage-innovation-awards/index.html",
+        "sprite": { "x": 2, "y": 1 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2013-Foodbev-Gold/photo.jpg",
+        "sprite": { "x": 2, "y": 0 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=ESEq92IzFFo"
+      }
+    },
+    {
+      "event": "Corpcomms Digi Awards",
+      "year": 2013,
+      "award": "Best Use Of Mobile",
+      "client": "British Heart Foundation",
+      "campaign": "No smoking day",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2013-Digi-Gold/logo.png",
+        "link": "https://corpcommsmagazine.co.uk/awards/2017/corpcomms-digi-awards-2017",
+        "sprite": { "x": 1, "y": 1 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2013-Digi-Gold/photo.jpg",
+        "sprite": { "x": 3, "y": 0 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=g185oKQrQtI"
+      }
+    },
+    {
+      "event": "The Drum Network Awards",
+      "year": 2014,
+      "award": "Mobile Marketing Campaign / Strategy of the Year",
+      "client": "Pepsi",
+      "campaign": "Pepsi Football 2014",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-The_Drum-Gold/logo.png",
+        "link": "https://www.thedrumnetworkawards.co.uk/",
+        "sprite": { "x": 3, "y": 1 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-The_Drum-Gold/photo.jpg",
+        "sprite": { "x": 0, "y": 1 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=2oBSGEsO5fg"
+      }
+    },
+    {
+      "event": "Iab MIXX",
+      "year": 2014,
+      "award": "Best Cross-Media Integration",
+      "client": "Covergirl",
+      "campaign": "Hunger Games",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-IAAB_MIXX-Gold/logo.png",
+        "link": "https://www.iabeurope.eu/category/best-practices/mixx-awards-europe/",
+        "sprite": { "x": 6, "y": 0 },
+        "spriteScale": { "x": 8, "y": 8 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-IAAB_MIXX-Gold/photo.jpg",
+        "sprite": { "x": 1, "y": 1 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=Lch4VOBLSzM"
+      }
+    },
+    {
+      "event": "MIXX Awards Turkey",
+      "year": 2014,
+      "award": "Best Augmented Reality",
+      "client": "Pepsi",
+      "campaign": "Pek Yakinda Turkey",
+      "class": "silver",
+      "result": "Silver",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-Mixx-Silver/logo.png",
+        "link": "https://www.mixxawards-tr.org/",
+        "sprite": { "x": 7, "y": 0 },
+        "spriteScale": { "x": 8, "y": 8 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-Mixx-Silver/photo.jpg",
+        "sprite": { "x": 2, "y": 1 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=6OyvLhXrFw4"
+      }
+    },
+    {
+      "event": "MIXX Awards Turkey",
+      "year": 2014,
+      "award": "Best Mobile Campaign",
+      "client": "Pepsi",
+      "campaign": "Pek Yakinda Turkey",
+      "class": "bronze",
+      "result": "Bronze",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-Mixx-Bronze/logo.png",
+        "link": "https://www.mixxawards-tr.org/",
+        "sprite": { "x": 6, "y": 1 },
+        "spriteScale": { "x": 8, "y": 8 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2014-Mixx-Bronze/photo.jpg",
+        "sprite": { "x": 3, "y": 1 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=6OyvLhXrFw4"
+      }
+    },
+    {
+      "event": "Digital Impact Award",
+      "year": 2015,
+      "award": "Best Use of Digital from the Food & Beverage Sector",
+      "client": "Pepsi",
+      "campaign": "Pek Yakinda Turkey",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2015-Digital_Impact-Gold/logo.png",
+        "link": "https://digitalimpactawards.com/",
+        "sprite": { "x": 1, "y": 0 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2015-Digital_Impact-Gold/photo.jpg",
+        "sprite": { "x": 0, "y": 2 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=6OyvLhXrFw4"
+      }
+    },
+    {
+      "event": "Mobile World Congress - Global Mobile Awards",
+      "year": 2015,
+      "award": "Best Mobile Advertising or Marketing",
+      "client": "Pepsi",
+      "campaign": "Pek Yakinda Turkey",
+      "class": "finalist",
+      "result": "Finalist",
+      "logo": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2015-Mobile_World_Congress-Finalist/logo.png",
+        "link": "https://www.mobileworldcongress.com/conference-programmes/global-mobile-awards-2018/",
+        "sprite": { "x": 0, "y": 0 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "https://www.r5.ro/2018/img/awards/2015-Mobile_World_Congress-Finalist/photo.jpg",
+        "sprite": { "x": 1, "y": 2 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=6OyvLhXrFw4"
+      }
+    }
+  ]
+}
