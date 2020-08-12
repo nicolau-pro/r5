@@ -614,3 +614,8 @@ section.awards .col {
     margin: unset;
   }
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
