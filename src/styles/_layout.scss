@@ -155,6 +155,11 @@ a.cta {
   transition: background-color 1s ease, color 1s ease;
   white-space: nowrap;
 
+  @media (max-width: $break-medium) {
+    text-align: center;
+    width: calc(100% - 1.3em);
+  }
+
   @media (max-width: $break-xsmall - 1px) {
     letter-spacing: -0.005em;
   }
@@ -182,5 +187,25 @@ a.cta {
 
   &.bordered {
     border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+a.img {
+  border-radius: 5px;
+  display: block;
+  transition: background-color 1s ease;
+
+  > amp-img {
+    transition: opacity 1s ease;
+  }
+
+  &:hover {
+    background-color: $white;
+    transition: background-color 0.1s ease;
+
+    > amp-img {
+      opacity: 0.8;
+      transition: opacity 0.1s ease;
+    }
   }
 }

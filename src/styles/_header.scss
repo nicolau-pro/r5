@@ -13,12 +13,23 @@ header {
     flex-direction: row;
     padding-top: 1.5em;
 
-    amp-img {
+    a {
       border-radius: 50%;
       display: block;
       margin: auto;
       max-width: 60vw;
+      max-height: 60vw;
       width: 400px;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    amp-img {
+      display: block;
+      max-width: 60vw;
+      max-height: 60vw;
+      width: 100%;
+      height: 100%;
     }
   }
 
@@ -44,6 +55,7 @@ header {
 
         .cta {
           width: 100%;
+          text-align: left;
         }
       }
     }
@@ -51,8 +63,9 @@ header {
 
   @media (max-width: $break-large) {
     .portrait {
-      amp-img {
+      a {
         margin: 0;
+        max-height: 40vw;
         max-width: 40vw;
       }
     }
@@ -69,8 +82,9 @@ header {
     }
 
     .portrait {
-      amp-img {
+      a {
         margin: auto;
+        max-height: 50vw;
         max-width: 50vw;
       }
     }
@@ -82,7 +96,8 @@ header {
 
   @media (max-width: $break-small) {
     .portrait {
-      amp-img {
+      a {
+        max-height: 60vw;
         max-width: 60vw;
       }
     }

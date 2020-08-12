@@ -8,16 +8,18 @@ export class Header extends Component {
         <div className='container'>
           <div className='row'>
             <div className='col portrait'>
-              <Sprite
-                sprites={{
-                  src: this.props.sprites,
-                  x: 4,
-                  y: 8,
-                }}
-                pos={{ x: 2, y: 2 }}
-                alt={'Radu Nicolau'}
-                width='1'
-                height='1'></Sprite>
+              <a className='img' href={'https://r5.ro'}>
+                <Sprite
+                  sprites={{
+                    src: this.props.sprites,
+                    x: 4,
+                    y: 8,
+                  }}
+                  pos={{ x: 2, y: 2 }}
+                  alt={'Radu Nicolau'}
+                  width='1'
+                  height='1'></Sprite>
+              </a>
             </div>
             <div className='col text'>
               <h1>Radu Nicolau</h1>

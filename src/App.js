@@ -17,7 +17,6 @@ class App extends Component {
   }
 
   render() {
-    let spritesFlat = 'https://www.r5.ro/2020/Sprites.webp';
     let spritesFlatFallback = 'https://www.r5.ro/2020/Sprites.jpg';
     let spritesTransparent = 'https://www.r5.ro/2020/SpritesTransparent.png';
 
@@ -35,7 +34,7 @@ class App extends Component {
                     y: 4,
                   }}
                   pos={{ x: 3, y: 3 }}
-                  alt={'!!!'}
+                  alt={'★'}
                   width='1'
                   height='1'></Sprite>
                 <span>Projects</span>
@@ -46,7 +45,7 @@ class App extends Component {
                     y: 4,
                   }}
                   pos={{ x: 3, y: 3 }}
-                  alt={'!!!'}
+                  alt={'★'}
                   width='1'
                   height='1'></Sprite>
               </h2>
@@ -74,16 +73,18 @@ class App extends Component {
                           alt={item.splash.alt}
                           width={item.splash.width}
                           height={item.splash.height}></Image> */}
-                      <Sprite
-                        sprites={{
-                          src: spritesFlatFallback,
-                          x: item.splash.spriteScale.x,
-                          y: item.splash.spriteScale.y,
-                        }}
-                        pos={item.splash.sprite}
-                        alt={item.splash.alt}
-                        width='1'
-                        height='1'></Sprite>
+                      <a className='img' href={item.splash.link} target='_blank' rel='noopener noreferrer'>
+                        <Sprite
+                          sprites={{
+                            src: spritesFlatFallback,
+                            x: item.splash.spriteScale.x,
+                            y: item.splash.spriteScale.y,
+                          }}
+                          pos={item.splash.sprite}
+                          alt={item.splash.alt}
+                          width='1'
+                          height='1'></Sprite>
+                      </a>
                     </div>
                   ) : (
                     <></>
@@ -115,7 +116,7 @@ class App extends Component {
                     <div className='col'></div>
                     <div className='col x5 project-items'>
                       {item.items.map((img, itemIndex) => (
-                        <a key={itemIndex} href={img.link} target='_blank' rel='noopener noreferrer' aria-label={img.alt}>
+                        <a className='img' key={itemIndex} href={img.link} target='_blank' rel='noopener noreferrer' aria-label={img.alt}>
                           <Sprite
                             sprites={{
                               src: spritesFlatFallback,
@@ -148,7 +149,7 @@ class App extends Component {
                     y: 4,
                   }}
                   pos={{ x: 1, y: 3 }}
-                  alt={'sss'}
+                  alt={'🙟'}
                   width='1'
                   height='1'></Sprite>
                 <span>Awards</span>
@@ -159,7 +160,7 @@ class App extends Component {
                     y: 4,
                   }}
                   pos={{ x: 1, y: 3 }}
-                  alt={'sss'}
+                  alt={'🙝'}
                   width='1'
                   height='1'></Sprite>
               </h2>
