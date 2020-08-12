@@ -13,8 +13,8 @@
         "image": "https://www.r5.ro/2018/img/projects/Aqua-Card.jpg",
         "width": 1024,
         "height": 576,
-        "sprite": { "x": 0, "y": 2 },
-        "spriteScale": { "x": 2, "y": 4 },
+        "sprite": { "x": 0, "y": 5 },
+        "spriteScale": { "x": 4, "y": 8 },
         "alt": "Aqua Card",
         "link": "https://www.aquacard.co.uk/"
       },
@@ -110,7 +110,7 @@
         {
           "image": "https://www.r5.ro/2018/img/print/Matress_Catalogue.jpg",
           "alt": "UNIFLEX Matress_Catalogue",
-          "sprite": { "x": 2, "y": 3 },
+          "sprite": { "x": 0, "y": 4 },
           "spriteScale": { "x": 4, "y": 8 },
           "width": 1,
           "height": 1,

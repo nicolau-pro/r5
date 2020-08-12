@@ -38,7 +38,7 @@ export class Image extends Component {
           </amp-img>
         ) : (
           <picture>
-            {srcset != src.fallback ? <source srcset={srcset} sizes='100vw' /> : <></>}
+            {srcset !== src.fallback ? <source srcset={srcset} sizes='100vw' /> : <></>}
             <img loading='lazy' decoding='async' alt={alt} src={src.fallback} />
           </picture>
         )}

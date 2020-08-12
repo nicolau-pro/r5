@@ -339,7 +339,7 @@ header nav ul li .cta {
     z-index: 1;
   }
   header .text h2 {
-    margin-top: -0.5em;
+    margin-top: -1em;
     font-size: 120%;
   }
 }

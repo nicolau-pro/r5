@@ -12,10 +12,10 @@ export class Header extends Component {
                 <Sprite
                   sprites={{
                     src: this.props.sprites,
-                    x: 4,
-                    y: 8,
+                    x: 2,
+                    y: 4,
                   }}
-                  pos={{ x: 2, y: 2 }}
+                  pos={{ x: 1, y: 1 }}
                   alt={'Radu Nicolau'}
                   width='1'
                   height='1'></Sprite>
@@ -28,7 +28,7 @@ export class Header extends Component {
                 <ul>
                   <li>
                     <a className='cta' href='#projects' aria-label='my major projects'>
-                      <span class='material-icons' aria-hidden='true'>
+                      <span className='material-icons' aria-hidden='true'>
                         grade
                       </span>
                       Major projects
@@ -36,7 +36,7 @@ export class Header extends Component {
                   </li>
                   <li>
                     <a className='cta' href='#awards' aria-label='my award winning campaigns'>
-                      <span class='material-icons' aria-hidden='true'>
+                      <span className='material-icons' aria-hidden='true'>
                         emoji_events
                       </span>
                       Award winning campaigns
@@ -49,7 +49,7 @@ export class Header extends Component {
                       target='_blank'
                       rel='noopener noreferrer'
                       aria-label='my LinkedIn page, including my latest CV'>
-                      <span class='material-icons' aria-hidden='true'>
+                      <span className='material-icons' aria-hidden='true'>
                         contact_page
                       </span>
                       LinkedIn and CV
@@ -57,7 +57,7 @@ export class Header extends Component {
                   </li>
                   <li>
                     <a className='cta' href='tel:+447576969006' aria-label='call me on 07576 969 006'>
-                      <span class='material-icons' aria-hidden='true'>
+                      <span className='material-icons' aria-hidden='true'>
                         call
                       </span>
                       +44 7576 969 006
@@ -65,7 +65,7 @@ export class Header extends Component {
                   </li>
                   <li>
                     <a className='cta' href='mailto:radu.alex.nicolau@gmail.com' aria-label='email me at radu.alex.nicolau@gmail.com'>
-                      <span class='material-icons' aria-hidden='true'>
+                      <span className='material-icons' aria-hidden='true'>
                         email
                       </span>
                       radu.alex.nicolau@gmail.com

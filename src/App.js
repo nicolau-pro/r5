@@ -4,7 +4,6 @@ import './styles/App.css';
 // Modules:
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Image from './components/Image';
 import Sprite from './components/Sprite';
 
 // JSON:
@@ -52,7 +51,7 @@ class App extends Component {
             </div>
 
             {Pojects.list.map((item, index) => (
-              <>
+              <div key={index}>
                 <div className={'row' + (index > 0 ? ' project-head' : '')}>
                   <div className='col'>
                     <h3>
@@ -97,7 +96,7 @@ class App extends Component {
                       <>
                         {item.ctas.map((a, ctasIndex) => (
                           <a key={ctasIndex} className='cta bordered' href={a.link} target='_blank' rel='noopener noreferrer'>
-                            <span class='material-icons' aria-hidden='true'>
+                            <span className='material-icons' aria-hidden='true'>
                               {a.icon}
                             </span>
                             {a.text}
@@ -116,7 +115,7 @@ class App extends Component {
                     <div className='col'></div>
                     <div className='col x5 project-items'>
                       {item.items.map((img, itemIndex) => (
-                        <a className='img' key={itemIndex} href={img.link} target='_blank' rel='noopener noreferrer' aria-label={img.alt}>
+                        <a key={itemIndex} className='img' href={img.link} target='_blank' rel='noopener noreferrer' aria-label={img.alt}>
                           <Sprite
                             sprites={{
                               src: spritesFlatFallback,
@@ -135,7 +134,7 @@ class App extends Component {
                 ) : (
                   <></>
                 )}
-              </>
+              </div>
             ))}
           </section>
 
@@ -166,7 +165,7 @@ class App extends Component {
               </h2>
             </div>
             {Awards.list.map((item, index) => (
-              <div className={'row awards-content ' + item.class}>
+              <div key={index} className={'row awards-content ' + item.class}>
                 <div className='col awards-logo'>
                   <a href={item.logo.link} target='_blank' rel='noopener noreferrer' aria-label='item.event'>
                     {/* <Image amp={true} src_fallback={item.logo.thumb} alt={index} width='1' height='1'></Image> */}
