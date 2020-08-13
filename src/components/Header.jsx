@@ -8,7 +8,7 @@ export class Header extends Component {
         <div className='container'>
           <div className='row'>
             <div className='col portrait'>
-              <a className='img' href={'https://r5.ro'}>
+              <a className='img' href={'https://www.r5.ro'}>
                 <Sprite
                   sprites={{
                     src: this.props.sprites,
