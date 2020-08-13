@@ -51,7 +51,7 @@ class App extends Component {
             </div>
 
             {Pojects.list.map((item, index) => (
-              <div key={index}>
+              <>
                 <div className={'row' + (index > 0 ? ' project-head' : '')}>
                   <div className='col'>
                     <h3>
@@ -134,7 +134,7 @@ class App extends Component {
                 ) : (
                   <></>
                 )}
-              </div>
+              </>
             ))}
           </section>
 
@@ -212,10 +212,6 @@ class App extends Component {
             ))}
           </section>
         </main>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <Footer />
       </>
     );

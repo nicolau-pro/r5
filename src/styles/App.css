@@ -41,14 +41,6 @@ body {
   }
 }
 
-.row:nth-of-type(2) {
-  padding-top: 2em;
-}
-
-.row:last-of-type {
-  padding-bottom: 2em;
-}
-
 .row.section-head {
   background: transparent;
   text-align: center;
@@ -171,6 +163,15 @@ p {
   padding: 0;
 }
 
+main {
+  margin-bottom: 2.2em;
+}
+
+amp-img {
+  background-color: transparent;
+  pointer-events: none;
+}
+
 a.cta {
   background-color: rgba(255, 255, 255, 0.1);
   display: inline-block;
@@ -257,12 +258,12 @@ header .portrait {
 header .portrait a {
   border-radius: 50%;
   display: block;
-  margin: auto;
-  max-width: 60vw;
-  max-height: 60vw;
-  width: 400px;
   height: 400px;
+  margin: auto;
+  max-height: 60vw;
+  max-width: 60vw;
   overflow: hidden;
+  width: 400px;
 }
 
 header .portrait amp-img {
@@ -397,6 +398,14 @@ section.projects .row {
 
 section.projects .row.project-head {
   padding-top: 6em;
+}
+
+section.projects .row:nth-of-type(2) {
+  padding-top: 2em;
+}
+
+section.projects .row:last-of-type {
+  padding-bottom: 2em;
 }
 
 section.projects .row .year {
@@ -651,9 +660,4 @@ section.awards .col {
   section.awards .awards-video a:hover {
     margin: unset;
   }
-}
-
-amp-img {
-  background-color: transparent;
-  pointer-events: none;
 }

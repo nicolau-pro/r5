@@ -1,35 +1,12 @@
 @import 'variables';
 @import 'mixins';
 
-body {
-  background-attachment: fixed;
-  background-color: $black;
-  background-image: url('https://www.r5.ro/2020/galaxy.jpg');
-  background-position: center center;
-  background-repeat: repeat;
-  background-size: contain;
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  color: $white;
-  font-family: 'Heebo', sans-serif;
-  font-weight: 200;
-  letter-spacing: 0.02em;
-}
-
-$pt: 0.75px;
-
 @import 'layout';
+@import 'links';
+
 @import 'header';
 @import 'footer';
 
 @import 'headings';
 @import 'projects';
 @import 'awards';
-
-amp-img {
-  background-color: transparent;
-  pointer-events: none;
-}
