@@ -1,6 +1,25 @@
 {
   "list": [
     {
+      "title": "Lending Stream website revamp",
+      "subtitle": "The lead product website of Gain Credit",
+      "year": 2020,
+      "details": [
+        "The client facing website of Lending Stream was brought to the most modern and strict standards proving a very solid platform for content editors to push products and updates to the market quickly while positioning itself very high on Google rankings. At launch the website was not only fully semantic and conformant to W3C standards but got 100% Lighthouse score including SEO and Accessibility (for which it passes WCAG 2.1 AA / AAA standards).",
+        "The CMS and React middleware used make even dynamic pages load in under two seconds, while vector graphics and well compressed assets were used making it extremely responsive and pleasing as a user experience."
+      ],
+      "splash": {
+        "image": "https://www.r5.ro/2018/img/projects/Aqua-Card.jpg",
+        "width": 1024,
+        "height": 576,
+        "sprite": { "x": 1, "y": 5 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "alt": "Lending Stream",
+        "link": "https://www.lendingstream.co.uk/"
+      },
+      "ctas": [{ "text": "Visit lendingstream.co.uk", "link": "https://www.lendingstream.co.uk/", "icon": "link" }]
+    },
+    {
       "title": "NewDay's Aquacard rebrand",
       "subtitle": "The main website of the most successful financial product of Newday",
       "year": 2019,
