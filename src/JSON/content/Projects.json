@@ -17,7 +17,7 @@
         "alt": "Lending Stream",
         "link": "https://www.lendingstream.co.uk/"
       },
-      "ctas": [{ "text": "Visit lendingstream.co.uk", "link": "https://www.lendingstream.co.uk/", "icon": "link" }]
+      "ctas": [{ "text": "Visit lendingstream.co.uk", "link": "https://www.lendingstream.co.uk/", "icon": "phonelink" }]
     },
     {
       "title": "NewDay's Aquacard rebrand",
