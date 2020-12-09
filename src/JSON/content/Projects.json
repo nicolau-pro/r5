@@ -39,7 +39,7 @@
       },
       "ctas": [
         { "text": "Visit aquacard.co.uk", "link": "https://www.aquacard.co.uk/", "icon": "phonelink" },
-        { "text": "Card And Payments Awards", "link": "https://www.cardandpaymentsawards.com/", "icon": "link" },
+        { "text": "Card and Payments Awards", "link": "https://www.cardandpaymentsawards.com/", "icon": "link" },
         { "text": "The UK Digital Experience Awards", "link": "https://d-x-a.co.uk/", "icon": "link" }
       ]
     },
