@@ -24,8 +24,8 @@
       "subtitle": "The main website of the most successful financial product of Newday",
       "year": 2019,
       "details": [
-        "The achievement was developing https://www.aquacard.co.uk/ in a team of just two developers.",
-        "The website has performed amazingly surpassing expected sales by 30%! It is amazingly fast to load on any device - far ahead of competitor's websites.",
+        "In a team of just two developers we created the award winning public facing website for https://www.aquacard.co.uk/",
+        "It performed amazingly surpassing expected sales by 30%! It is amazingly fast to load on any device - far ahead of competitor's websites.",
         "The solution uses CMS with Umbraco ASP.net framework and passes all WCAG 2.0 accessibility standards."
       ],
       "splash": {
@@ -37,7 +37,11 @@
         "alt": "Aqua Card",
         "link": "https://www.aquacard.co.uk/"
       },
-      "ctas": [{ "text": "Visit aquacard.co.uk", "link": "https://www.aquacard.co.uk/", "icon": "link" }]
+      "ctas": [
+        { "text": "Visit aquacard.co.uk", "link": "https://www.aquacard.co.uk/", "icon": "phonelink" },
+        { "text": "Card And Payments Awards", "link": "https://www.cardandpaymentsawards.com/", "icon": "link" },
+        { "text": "The UK Digital Experience Awards", "link": "https://d-x-a.co.uk/", "icon": "link" }
+      ]
     },
     {
       "title": "Flair 7 UX/UI for Mark Roberts Motion Control",

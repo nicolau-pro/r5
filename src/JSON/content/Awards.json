@@ -1,6 +1,48 @@
 {
   "list": [
     {
+      "event": "The UK Digital Experience Awards",
+      "year": 2020,
+      "award": "Digital Change & Transformation - Financial Services",
+      "client": "NewDay",
+      "campaign": "Aquacard",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "",
+        "link": "https://d-x-a.co.uk/",
+        "sprite": { "x": 0, "y": 2 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "",
+        "sprite": { "x": 1, "y": 4 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=0ZNZkOxVrDQ"
+      }
+    },
+    {
+      "event": "Card And Payments Awards",
+      "year": 2020,
+      "award": "Digital Change & Transformation - Financial Services",
+      "client": "NewDay",
+      "campaign": "Aquacard",
+      "class": "finalist",
+      "result": "Finalist",
+      "logo": {
+        "thumb": "",
+        "link": "https://www.cardandpaymentsawards.com/",
+        "sprite": { "x": 1, "y": 2 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "",
+        "sprite": { "x": 0, "y": 5 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://www.youtube.com/watch?v=16j_K4DVAl0"
+      }
+    },
+    {
       "event": "Effective Mobile Marketing Awards",
       "year": 2012,
       "award": "Best Mobile Augmented Reality Campaign / Solution",
