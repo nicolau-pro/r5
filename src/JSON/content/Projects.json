@@ -39,8 +39,8 @@
       },
       "ctas": [
         { "text": "Visit aquacard.co.uk", "link": "https://www.aquacard.co.uk/", "icon": "phonelink" },
-        { "text": "Card and Payments Awards", "link": "https://www.cardandpaymentsawards.com/", "icon": "link" },
-        { "text": "The UK Digital Experience Awards", "link": "https://d-x-a.co.uk/", "icon": "link" }
+        { "text": "Card & Payments Awards", "link": "https://www.cardandpaymentsawards.com/", "icon": "link" },
+        { "text": "The UKDE Awards", "link": "https://d-x-a.co.uk/", "icon": "link" }
       ]
     },
     {
@@ -62,8 +62,13 @@
         "link": "https://youtu.be/1pUrC9pyY9A"
       },
       "ctas": [
+        {
+          "text": "Flair 7 demo videos",
+          "link": "https://m.youtube.com/watch?v=Zul_4uDVlZc&list=PLvZ6jdEys0gGhn9lIAX42j4tKrRKQaP2e",
+          "icon": "ondemand_video"
+        },
         { "text": "More about Flair 7", "link": "https://www.mrmoco.com/motion-control/flair/", "icon": "movie_creation" },
-        { "text": "UI samples", "link": "https://photos.app.goo.gl/zjMuz9AuZYcsT5Uq6", "icon": "collections" }
+        { "text": "UI design samples", "link": "https://photos.app.goo.gl/zjMuz9AuZYcsT5Uq6", "icon": "collections" }
       ]
     },
     {
@@ -102,7 +107,7 @@
         "alt": "MILO Champions",
         "link": "https://www.youtube.com/watch?v=jsTSHFv9EQo"
       },
-      "ctas": [{ "text": "See the MILO Champions app", "link": "https://www.youtube.com/watch?v=jsTSHFv9EQo", "icon": "ondemand_video" }]
+      "ctas": [{ "text": "The MILO Champions app", "link": "https://www.youtube.com/watch?v=jsTSHFv9EQo", "icon": "ondemand_video" }]
     },
     {
       "title": "Printed catalogues",
