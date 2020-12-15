@@ -39,8 +39,8 @@
       },
       "ctas": [
         { "text": "Visit aquacard.co.uk", "link": "https://www.aquacard.co.uk/", "icon": "phonelink" },
-        { "text": "Card & Payments Awards", "link": "https://www.cardandpaymentsawards.com/", "icon": "link" },
-        { "text": "The UKDE Awards", "link": "https://d-x-a.co.uk/", "icon": "link" }
+        { "text": "Card & Payments Awards", "link": "https://www.cardandpaymentsawards.com/", "icon": "emoji_events" },
+        { "text": "The UKDE Awards", "link": "https://d-x-a.co.uk/", "icon": "emoji_events" }
       ]
     },
     {
