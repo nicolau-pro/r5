@@ -12,7 +12,7 @@
         "image": "https://www.r5.ro/2018/img/projects/Aqua-Card.jpg",
         "width": 1024,
         "height": 576,
-        "sprite": { "x": 1, "y": 5 },
+        "sprite": { "x": 3, "y": 7 },
         "spriteScale": { "x": 4, "y": 8 },
         "alt": "Lending Stream",
         "link": "https://www.lendingstream.co.uk/"
@@ -32,7 +32,7 @@
         "image": "https://www.r5.ro/2018/img/projects/Aqua-Card.jpg",
         "width": 1024,
         "height": 576,
-        "sprite": { "x": 0, "y": 5 },
+        "sprite": { "x": 3, "y": 6 },
         "spriteScale": { "x": 4, "y": 8 },
         "alt": "Aqua Card",
         "link": "https://www.aquacard.co.uk/"
@@ -49,7 +49,7 @@
       "year": 2018,
       "details": [
         "Flair is MRMC’s premier motion control software. Designed to give exceptional command over camera movement, Flair precisely controls up to 500 axes of motion, is fully compatible with all of our motion control rigs, heads and accessories and interfaces seamlessly with CGI packages. ",
-        "Flair 7 is the tool that makes your vision reality.",
+        "Flair 7 is the tool that makes your vision reality. An award winning control software alongside the Bolt X robot in 2020.",
         "I was in charge of all the UX/UI components including 3D models and full documentation for implementation of controls"
       ],
       "splash": {
@@ -68,7 +68,12 @@
           "icon": "ondemand_video"
         },
         { "text": "More about Flair 7", "link": "https://www.mrmoco.com/motion-control/flair/", "icon": "movie_creation" },
-        { "text": "UI design samples", "link": "https://photos.app.goo.gl/zjMuz9AuZYcsT5Uq6", "icon": "collections" }
+        { "text": "UI design samples", "link": "https://photos.app.goo.gl/zjMuz9AuZYcsT5Uq6", "icon": "collections" },
+        {
+          "text": "NAB Show award",
+          "link": "https://nabshow.com/ny2020/sessions/2nd-annual-nab-show-product-of-the-year-awards/",
+          "icon": "emoji_events"
+        }
       ]
     },
     {
@@ -102,8 +107,8 @@
         "image": "https://www.r5.ro/2018/img/projects/MILO-Champions.jpg",
         "width": 575,
         "height": 420,
-        "sprite": { "x": 1, "y": 3 },
-        "spriteScale": { "x": 2, "y": 4 },
+        "sprite": { "x": 2, "y": 6 },
+        "spriteScale": { "x": 4, "y": 8 },
         "alt": "MILO Champions",
         "link": "https://www.youtube.com/watch?v=jsTSHFv9EQo"
       },

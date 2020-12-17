@@ -1,6 +1,27 @@
 {
   "list": [
     {
+      "event": "NAB Show Product of the Year",
+      "year": 2020,
+      "award": "Camera Support, Control and Accessories",
+      "client": "MRMC",
+      "campaign": "Bolt X with Flair 7",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "",
+        "link": "https://nabshow.com/ny2020/sessions/2nd-annual-nab-show-product-of-the-year-awards/",
+        "sprite": { "x": 2, "y": 2 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "",
+        "sprite": { "x": 1, "y": 5 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://youtu.be/1pUrC9pyY9A"
+      }
+    },
+    {
       "event": "The UK Digital Experience Awards",
       "year": 2020,
       "award": "Digital Change & Transformation - Financial Services",
@@ -37,7 +58,7 @@
       },
       "video": {
         "thumb": "",
-        "sprite": { "x": 0, "y": 5 },
+        "sprite": { "x": 3, "y": 6 },
         "spriteScale": { "x": 4, "y": 8 },
         "link": "https://www.youtube.com/watch?v=16j_K4DVAl0"
       }
