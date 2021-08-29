@@ -1,6 +1,27 @@
 {
   "list": [
     {
+      "event": "The Credit Excellence Awards",
+      "year": 2021,
+      "award": "Responsible Lender",
+      "client": "Gain Credit",
+      "campaign": "Lendingstream.co.uk accessible website revamp",
+      "class": "gold",
+      "result": "Gold",
+      "logo": {
+        "thumb": "",
+        "link": "https://www.ccrmagazine.com/the-credit-excellence-awards/",
+        "sprite": { "x": 3, "y": 2 },
+        "spriteScale": { "x": 4, "y": 4 }
+      },
+      "video": {
+        "thumb": "",
+        "sprite": { "x": 0, "y": 5 },
+        "spriteScale": { "x": 4, "y": 8 },
+        "link": "https://youtu.be/dvqVwYAfRN0"
+      }
+    },
+    {
       "event": "NAB Show Product of the Year",
       "year": 2020,
       "award": "Camera Support, Control and Accessories",
