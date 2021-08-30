@@ -22,9 +22,10 @@ class App extends Component {
     return (
       <>
         <Header sprites={spritesFlatFallback} />
-        <main className='container'>
-          <section className='container projects' id='projects'>
-            <div className='row section-head'>
+
+        <main className="container">
+          <section className="container projects" id="projects">
+            <div className="row section-head">
               <h2>
                 <Sprite
                   sprites={{
@@ -34,8 +35,8 @@ class App extends Component {
                   }}
                   pos={{ x: 3, y: 3 }}
                   alt={'★'}
-                  width='1'
-                  height='1'></Sprite>
+                  width="1"
+                  height="1"></Sprite>
                 <span>Projects</span>
                 <Sprite
                   sprites={{
@@ -45,34 +46,38 @@ class App extends Component {
                   }}
                   pos={{ x: 3, y: 3 }}
                   alt={'★'}
-                  width='1'
-                  height='1'></Sprite>
+                  width="1"
+                  height="1"></Sprite>
               </h2>
             </div>
 
             {Pojects.list.map((item, index) => (
-              <>
+              <div key={index}>
                 <div className={'row' + (index > 0 ? ' project-head' : '')}>
-                  <div className='col'>
+                  <div className="col">
                     <h3>
                       {item.title}
-                      <span className='year'>{item.year}</span>
+                      <span className="year">{item.year}</span>
                     </h3>
                     <h4>{item.subtitle}</h4>
                     <hr />
                   </div>
                 </div>
-                <div className='row'>
-                  <div className='col'></div>
+                <div className="row">
+                  <div className="col"></div>
                   {item.splash ? (
-                    <div className='col double'>
+                    <div className="col double">
                       {/* <Image
                           amp={true}
                           src_fallback={item.splash.image}
                           alt={item.splash.alt}
                           width={item.splash.width}
                           height={item.splash.height}></Image> */}
-                      <a className='img' href={item.splash.link} target='_blank' rel='noopener noreferrer'>
+                      <a
+                        className="img"
+                        href={item.splash.link}
+                        target="_blank"
+                        rel="noopener noreferrer">
                         <Sprite
                           sprites={{
                             src: spritesFlatFallback,
@@ -81,8 +86,8 @@ class App extends Component {
                           }}
                           pos={item.splash.sprite}
                           alt={item.splash.alt}
-                          width='1'
-                          height='1'></Sprite>
+                          width="1"
+                          height="1"></Sprite>
                       </a>
                     </div>
                   ) : (
@@ -95,8 +100,13 @@ class App extends Component {
                     {item.ctas ? (
                       <>
                         {item.ctas.map((a, ctasIndex) => (
-                          <a key={ctasIndex} className='cta bordered' href={a.link} target='_blank' rel='noopener noreferrer'>
-                            <span className='material-icons' aria-hidden='true'>
+                          <a
+                            key={ctasIndex}
+                            className="cta bordered"
+                            href={a.link}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <span className="material-icons" aria-hidden="true">
                               {a.icon}
                             </span>
                             {a.text}
@@ -107,15 +117,21 @@ class App extends Component {
                       <></>
                     )}
                   </div>
-                  <div className='col'></div>
+                  <div className="col"></div>
                 </div>
 
                 {item.items ? (
-                  <div className='row'>
-                    <div className='col'></div>
-                    <div className='col x5 project-items'>
+                  <div className="row">
+                    <div className="col"></div>
+                    <div className="col x5 project-items">
                       {item.items.map((img, itemIndex) => (
-                        <a key={itemIndex} className='img' href={img.link} target='_blank' rel='noopener noreferrer' aria-label={img.alt}>
+                        <a
+                          key={itemIndex}
+                          className="img"
+                          href={img.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={img.alt}>
                           <Sprite
                             sprites={{
                               src: spritesFlatFallback,
@@ -129,17 +145,17 @@ class App extends Component {
                         </a>
                       ))}
                     </div>
-                    <div className='col'></div>
+                    <div className="col"></div>
                   </div>
                 ) : (
                   <></>
                 )}
-              </>
+              </div>
             ))}
           </section>
 
-          <section className='container awards' id='awards'>
-            <div className='row section-head'>
+          <section className="container awards" id="awards">
+            <div className="row section-head">
               <h2>
                 <Sprite
                   sprites={{
@@ -149,8 +165,8 @@ class App extends Component {
                   }}
                   pos={{ x: 1, y: 3 }}
                   alt={'🙟'}
-                  width='1'
-                  height='1'></Sprite>
+                  width="1"
+                  height="1"></Sprite>
                 <span>Awards</span>
                 <Sprite
                   sprites={{
@@ -160,14 +176,18 @@ class App extends Component {
                   }}
                   pos={{ x: 1, y: 3 }}
                   alt={'🙝'}
-                  width='1'
-                  height='1'></Sprite>
+                  width="1"
+                  height="1"></Sprite>
               </h2>
             </div>
             {Awards.list.map((item, index) => (
               <div key={index} className={'row awards-content ' + item.class}>
-                <div className='col awards-logo'>
-                  <a href={item.logo.link} target='_blank' rel='noopener noreferrer' aria-label='item.event'>
+                <div className="col awards-logo">
+                  <a
+                    href={item.logo.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="item.event">
                     {/* <Image amp={true} src_fallback={item.logo.thumb} alt={index} width='1' height='1'></Image> */}
                     <Sprite
                       sprites={{
@@ -177,24 +197,28 @@ class App extends Component {
                       }}
                       pos={item.logo.sprite}
                       alt={item.event + ' ' + item.year + ', ' + item.result}
-                      width='1'
-                      height='1'></Sprite>
+                      width="1"
+                      height="1"></Sprite>
                   </a>
                 </div>
-                <div className='col triple awards-text'>
+                <div className="col triple awards-text">
                   <h3>
                     {item.event}
-                    <span className='year'>{item.year}</span>
+                    <span className="year">{item.year}</span>
                   </h3>
                   <h4>{item.award}</h4>
                   <h5>
                     {item.client} - {item.campaign}
                   </h5>
                   <hr />
-                  <p className='result'>{item.result}</p>
+                  <p className="result">{item.result}</p>
                 </div>
-                <div className='col awards-video'>
-                  <a href={item.video.link} target='_blank' rel='noopener noreferrer' aria-label='item.event'>
+                <div className="col awards-video">
+                  <a
+                    href={item.video.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="item.event">
                     {/* <Image amp={true} src_fallback={item.video.thumb} alt={item.award + ' for ' + item.client + ' ' + item.campaign} width='1' height='1'></Image> */}
                     <Sprite
                       sprites={{
@@ -203,9 +227,11 @@ class App extends Component {
                         y: item.video.spriteScale.y,
                       }}
                       pos={item.video.sprite}
-                      alt={item.award + ' for ' + item.client + ' ' + item.campaign}
-                      width='1'
-                      height='1'></Sprite>
+                      alt={
+                        item.award + ' for ' + item.client + ' ' + item.campaign
+                      }
+                      width="1"
+                      height="1"></Sprite>
                   </a>
                 </div>
               </div>
